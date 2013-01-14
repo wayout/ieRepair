@@ -1,0 +1,421 @@
+@charset "utf-8";
+body, h1, h2, h3, h4, h5, h6 {
+font: 14px/18px Verdana, sans-serif;
+}
+code, kbd, pre, samp, tt, var {
+font: 14px/18px Consolas, "Courier New", monospace;
+}
+body, optgroup {
+color: #000;
+background: #fff;
+}
+body, code, dl, dd, form, pre {
+margin: 0;
+}
+a:link {
+color: #009;
+}
+a:link, a:visited, ins {
+text-decoration: none;
+}
+a:visited {
+color: #505;
+}
+a:hover {
+text-decoration: underline;
+}
+a:link img, a:visited img, object, fieldset, abbr, acronym {
+border: none;
+}
+sub, sup {
+position: relative;
+display: inline-block;
+font-size: 11px;
+line-height: 11px;
+}
+sub {
+top: 5px;
+vertical-align: middle;
+}
+sup {
+top: -2px;
+margin-top: -11px;
+}
+abbr, acronym {
+cursor: help;
+border-bottom: 1px dotted #999;
+}
+address, cite, dfn {
+font-style: normal;
+}
+code, pre {
+white-space: pre-wrap;
+}
+img {
+vertical-align: bottom;
+}
+td, th, textarea {
+vertical-align: top;
+}
+input, select, button {
+overflow: visible;
+vertical-align: middle;
+}
+legend {
+color: #000;
+margin: 0 0 -2px;
+padding: 0;
+}
+li {
+display: block;
+list-style: none;
+}
+optgroup option {
+padding-left: 22px;
+}
+table {
+border-collapse: collapse;
+}
+caption, th {
+text-align: left;
+}
+td, th {
+padding: 0;
+}
+address, blockquote, h1, h2, h3, h4, h5, h6, fieldset, p, ol, ul {
+margin: 0;
+padding: 0;
+}
+th, h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+q {
+quotes: "\00ab" "\00bb" "\201e" "\201c";
+}
+q:after {
+content: "\00bb";
+}
+q:before {
+content: "\00ab";
+}
+q > q:after {
+content: "\201c";
+}
+q > q:before {
+content: "\201e";
+}
+
+/*
+г дербент ул. кирова 33
+*/
+
+#sidebar li:hover
+{
+-webkit-box-shadow: 0px 0px 26px rgba(71, 78, 240, 1);
+-moz-box-shadow:    0px 0px 26px rgba(71, 78, 240, 1);
+box-shadow:         0px 0px 26px rgba(71, 78, 240, 1);
+color: #99AFF;
+}
+
+#sidebar li:hover a, #sidebar a:hover 
+{
+
+text-shadow:  0px 0px 70px #00f
+,0px 0px 70px #00f, 0px 0px 70px #00f,0px 0px 70px #00f
+,0px 0px 70px #00f;
+}
+
+#content
+{
+	overflow: hidden;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	float: left;
+	width: 1240px;
+}
+
+#Vwrap
+{
+	padding: 15px;
+	background: url(img/videobg.jpg);
+	width:580px;
+	height: 327px;
+	border:2px solid #f4f2be;
+	
+	-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+
+/*start*/
+body
+{
+	background: #1f3679;
+	
+}
+
+#wrap
+{
+	overflow: hidden;
+	background: url(img/gradient.png) repeat-x;
+}
+
+#main
+{
+	width: 1240px;
+	margin: 0 auto;
+}
+
+#slider
+{
+	width: 1240px;
+	height: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	
+}
+
+#menu 
+{
+	float:left;
+	padding-bottom: 10px;
+	width: 1240px;
+}
+
+#infobutton
+{
+	
+	float:right;
+}
+
+#menu ul
+{
+	float: left;
+	width: 306px;
+	height: 29px;
+    
+	/*padding-right: 20px;*/
+	background: url(img/videobg.jpg) ;
+	border:2px solid #f4f2be;
+	
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+#menu ul.right
+{
+	width: 861px;
+	height: 29px;
+	float: right;background: url(img/videobg.jpg) ;
+	border:2px solid #f4f2be;
+	
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;}
+
+ul li
+{
+	display: inline-block;
+	
+}
+
+#menu ul li a
+{
+		color: #f4f2be;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 29px;
+	padding: 0 5px;
+	margin-left:8px;
+text-shadow: 0px 0px 3px #000000, 0px 0px 3px #333333, 0px 0px 4px #333333, 0px 0px 5px #333333, 0px 0px 8px #333333, 0px 0px 15px #333333
+, 0px 0px 10px #333333, 0px 0px 15px #333333, 0px 0px 18px #333333, 0px 0px 5px #333333, 0px 0px 8px #333333, 0px 0px 3px #333333, 0px 0px 4px #333333;
+	text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+		
+text-shadow:0px 0px 3px #000050, 0px 0px 3px #3333a3, 0px 0px 4px #3333a3, 0px 0px 5px #333333, 0px 0px 8px #333333, 0px 0px 15px #333363
+, 0px 0px 10px #333363, 0px 0px 15px #333343, 0px 0px 25px #333393, 0px 0px 28px #3333b3;
+	text-decoration: none;
+}
+
+#content > div 
+{
+	float: left;
+	
+}
+
+#news
+{
+	width: 320px;
+	color: #f4f2be;
+	
+}
+
+#news p 
+{
+	width: 262px;
+	text-align: center;
+	width: 262px;
+	padding-bottom: 25px; 
+text-align: center;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 700;
+text-shadow: 0px 0px 3px #000055, 0px 0px 3px #333353, 0px 0px 4px #333343, 0px 0px 5px #333353, 0px 0px 5px #333353, 0px 0px 4px #333353;
+}
+
+#video
+{
+	width: 596px;
+	padding: 0 66px;
+	overflow:hidden;
+}
+
+#leftb, #rightb
+{
+	background: url(img/vidbuttons.png);
+	width: 27px;
+height: 79px;
+float: left;
+}
+#rightb
+{
+	float: right;
+	background-position: 27px; 
+}
+
+#videotitle
+{
+	color: #F4F2BE;
+float: bottom;
+padding-bottom: 13px;
+font-size: 16px;
+font-family: sans-serif;
+font-weight: bolder;
+text-align: center;
+}
+
+#videoBut
+{
+	margin-top: 20px;
+	overflow: hidden;
+	cursor:pointer;
+}
+#previd
+{
+	cursor: pointer;
+}
+
+#video 
+{
+	width: 614px;
+}
+
+
+.vbut
+{	
+	
+	float:left;
+	width: 117px;
+	margin-left: 15px;
+
+border: 2px solid #F4F2BE;
+height: 68px;
+margin-top: 3px;
+}
+
+.vbut:hover
+{
+	border: 3px solid #FFF620;
+	margin-left: 14px;
+	margin-top: 2px;
+	margin-right: -1px;
+	margin-bottom: -1px;
+ 
+}
+
+div#sidebar 
+{
+	padding-top: 7px;
+	padding-bottom: 5px;
+	width: 156px;
+	float: right;
+	background: url(img/videobg.jpg);
+	border:2px solid #f4f2be;
+	-webkit-border-radius: 9px;
+-moz-border-radius: 9px;
+border-radius: 9px;
+}
+
+#sidebar li
+{
+	background: url(img/sbg.png) no-repeat;
+	height: 44px;
+	width: 141px;
+	text-align:center;
+	margin: 5 8px;
+
+}
+
+.bottommenu
+{
+	margin-top: 139px;
+	width: 614px;
+	
+height: 29px;
+float: right;
+background: url(img/videobg.jpg);
+border: 2px solid #F4F2BE;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+	
+}
+
+.bottommenu li a
+{
+	color: #F4F2BE;
+font-size: 13px;
+font-family: sans-serif;
+font-weight: bolder;
+line-height: 29px;
+padding: 0px;
+margin-left: 6px;
+text-shadow: 0px 0px 3px black, 0px 0px 3px #333, 0px 0px 4px #333, 0px 0px 5px #333, 0px 0px 8px #333, 0px 0px 15px #333
+ , 0px 0px 10px #333, 0px 0px 15px #333, 0px 0px 18px #333, 0px 0px 5px #333, 0px 0px 8px #333, 0px 0px 3px #333, 0px 0px 4px #333;
+text-decoration: none;
+}
+.bottommenu li a:hover
+{
+	text-shadow:0px 0px 3px #000050, 0px 0px 3px #3333a3, 0px 0px 4px #3333a3, 0px 0px 5px #333333, 0px 0px 8px #333333, 0px 0px 15px #333363
+, 0px 0px 10px #333363, 0px 0px 15px #333343, 0px 0px 25px #333393, 0px 0px 28px #3333b3;
+	text-decoration: none;
+}
+
+#sidebar a
+{
+	color: #f4f2be;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+text-shadow: 0px 0px 6px rgba(0,0,0,0.7);
+	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+	vertical-align: middle;
+	
+}
+
+#sidebar a span.fs10
+{
+	font-size: 10px;
+}
+#sidebar a.onel
+{
+	line-height: 32px;
+}
